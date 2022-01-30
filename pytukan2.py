@@ -1,16 +1,42 @@
 """
-Lumache - Python library for cooks and food lovers.
+Tukan Main
 """
 
 __version__ = "0.1.0"
 
 
-class InvalidKindError(Exception):
+class ReferenceError(Exception):
     """Raised if the kind is invalid."""
     pass
 
 
-def get_random_ingredients(kind=None):
+class RunAnalysisTest:
+    """ 
+    This is an example class to see how to use readthedocs
+    
+    Parameters
+    ----------
+    input1 : float
+        Just a random input
+    input2 : array
+        Another random input
+    """
+    def __init__(self, input1, input2):
+        self.attr1 = self.do_something(input1)
+        self.attr2 = input2
+    
+    def do_something(self, input1):
+        """ 
+        An example function
+        
+        returns
+        -------
+        input3 : float
+            input1 + 3
+        """
+        return input1 + 3
+        
+def get_random_settings():
     """
     Return a list of random ingredients as strings.
 
