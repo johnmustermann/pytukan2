@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'pytukan2'
+copyright = '2022, Mustermann'
+author = 'Mustermann'
 
 release = '0.1'
 version = '0.1.0'
